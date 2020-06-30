@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "Base.css";
+
+#choice-box{
+    top: 100px;
+    height: 200px;
+    width: 300px;
+}
+
+#message-box{
+    top: 450px;
+    width: 900px;
+    height: 200px;
+}

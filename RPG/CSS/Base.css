@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.background{
+    background-color: black;
+    width: 1080px;
+    height: 720px;
+    display: flex;
+    place-content: center;
+}
+
+.box{
+    background-color: gray;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: absolute;
+    display: grid;
+    place-content: stretch;
+}
+
+button{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: dimgray;
+    border-color: white;
+    border-radius: 7px;
+}
+
+button:active{
+    background-color: black;
+    border-color: white;
+    border-radius: 7px;
+}
+
+button:focus{
+    outline: none;
+}
+
+textarea{
+    background-color: rgba(0,0,0,0);
+    resize: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
